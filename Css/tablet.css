@@ -1,0 +1,53 @@
+* {
+
+    box-sizing: border-box;
+  }
+/* 1. nav */
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    
+  }
+#nav .num1,#nav .num2  { float: left;}
+#nav .num3, #nav .num4, #nav .num5{float:right;}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: px;
+    
+  }
+  .guide1-text, .pic-mexico,.pic-tokyo,.pic-ny,.pic-invite,.pic-paris,.f1,.f2,.f3{ margin:30px 0px; }
+  .covertext{margin: 30px 0 30px 0;}
+
+  @media only screen and (min-width: 768px ) {
+    /* For tablet: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #nav{background-color:#556270;}
+    #nav li a{ color: white;}
+    .cover img { display: none;}
+    .pic-mexico,.pic-tokyo,.pic-ny,.pic-invite,.pic-paris{ float: left; margin: 25px 15px;}
+    .footer{ clear: both;}
+    .container2{ margin-left: 50px;}
+    .guide1-text{border-bottom: 1px solid gray;}
+    
+}

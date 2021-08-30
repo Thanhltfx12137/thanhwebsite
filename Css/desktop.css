@@ -1,0 +1,89 @@
+* {
+
+    box-sizing: border-box;
+  }
+/* 1. nav */
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    
+  }
+#nav .num1,#nav .num2  { float: left;}
+#nav .num3, #nav .num4, #nav .num5{float:right;}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: px;
+    
+  }
+  .guide1-text, .pic-mexico,.pic-tokyo,.pic-ny,.pic-invite,.pic-paris,.f1,.f2,.f3{ margin:30px 0px; }
+  .covertext{margin: 30px 0 30px 0;}
+
+
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+     .col-1 {width: 8.33%;}
+     .col-2 {width: 16.66%;}
+     .col-3 {width: 25%;}
+     .col-4 {width: 33.33%;}
+     .col-5 {width: 41.66%;}
+     .col-6 {width: 50%;}
+     .col-7 {width: 58.33%;}
+     .col-8 {width: 66.66%;}
+     .col-9 {width: 75%;}
+     .col-10 {width: 83.33%;}
+     .col-11 {width: 91.66%;}
+     .col-12 {width: 100%;}
+
+     #nav{background-color:white;}
+     #nav li a{ color: black;}
+     #nav .num1{ margin-left: 50px ;}
+     #nav .num5{ margin-right: 50px ;}
+     .cover img { display: block;
+                 position: relative;}
+     .covertext{
+         position: absolute;
+         top: 180px;
+         left: 90px;
+         color: white;
+         padding: 0px;
+         z-index: 1;
+     
+     }
+     .covertext h1 {
+         font-family: monospace;
+         font-size: 40px;
+         margin: 0px;
+     }
+     .covertext p {
+         margin: 0px;
+         font-size: 18px;;
+     }
+     .pic-col1, .pic-col2, .pic-col3{ float: left;}
+     .pic-mexico,.pic-tokyo,.pic-ny,.pic-invite,.pic-paris{  margin:0 20px 30px 0;}
+     .guide1-text,.guide1-text h2 {margin-top: 0px; padding-top: 30px;}
+     .guide1, .footer-content{ margin-left: 30px;}
+     .background-guide1 { height: 564px ;background-color: #efefef;}
+     .background-footer{height: 265px ;background-color: #f7f7f7}
+     .guide1-text{border-bottom:0px;}
+     .f1 p, .f2 p, .f3 p{height: 80px;}
+
+     /* .pic-invite{ background-size: cover;} */
+     .container2{ margin-left: 0px;}
+     .f1,.f2,.f3{ float: left;}
+       .covertext h1 {
+     font-family: monospace;
+     font-size: 40px;
+     margin: 0px;
+ }
+
+     
+ }

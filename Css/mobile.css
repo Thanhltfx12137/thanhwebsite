@@ -1,0 +1,42 @@
+* {
+
+    box-sizing: border-box;
+  }
+/* 1. nav */
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    
+  }
+#nav .num1,#nav .num2  { float: left;}
+#nav .num3, #nav .num4, #nav .num5{float:right;}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: px;
+    
+  }
+  .guide1-text, .pic-mexico,.pic-tokyo,.pic-ny,.pic-invite,.pic-paris,.f1,.f2,.f3{ margin:30px 0px; }
+  .covertext{margin: 30px 0 30px 0;}
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile: */
+    [class*="col-"] {
+      width: 100%;
+     }
+     #nav{background-color:#556270;}
+     #nav li a{ color: white;
+                  font-size: 60%;}
+     .cover img { display: none;}
+     .container2{ margin-left: 25px; margin-right: 25px;}
+     .guide1-text{border-bottom: 1px solid gray;}
+   
+}
